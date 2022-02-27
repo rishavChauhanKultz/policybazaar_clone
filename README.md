@@ -23,10 +23,4 @@ Vijay Rajput - Designed the whole Homepage including navbar and footer.
 
 Rishav Chauhan- Worked on payment and build a product page (Term Insurance page) of the website, and maintain the database
 
-Homepage
-homepage.png
 
-2.Login pagelogin.png
-
-Cart
-cart.png
