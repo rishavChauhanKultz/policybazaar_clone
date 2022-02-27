@@ -23,4 +23,10 @@ Vijay Rajput - Designed the whole Homepage including navbar and footer.
 
 Rishav Chauhan- Worked on payment and build a product page (Term Insurance page) of the website, and maintain the database
 
+Installation and Setup Instructions:
+
+Installation: npm install
+1) In the project directory, you can run: npm start
+2) Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
 
