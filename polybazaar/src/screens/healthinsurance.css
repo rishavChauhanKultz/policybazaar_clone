@@ -1,0 +1,286 @@
+.div_1{
+    width:100%;
+    height:150px;
+    /* border:1px solid red; */
+    background-color: white;
+}
+.idiv_1{
+    width:100%;
+    height:75px;
+    /* border:0.5px solid green; */
+    display: flex;
+}
+.idiv_2{
+    width:100%;
+    height:74px;
+    /* border:0.5px solid blue; */
+    display: flex;
+    position: sticky;
+    background-color: white;
+    z-index: 9;
+}
+.showing_plans{
+    height: 75px;
+    width:40%;
+    /* border:1px solid violet; */
+    display: flex;
+    align-items: center;
+}
+.Edit_members{
+    position: absolute;
+    height: 75px;
+    width:40%;
+    /* border:1px solid green; */
+    vertical-align: top;
+    right: 1px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.heading_1{
+    font-style: inherit;
+    font-size: 18px;
+    font-weight: 500;
+    color: #253858;
+    margin-left: 18%;
+}
+.info{
+    margin-left: 2%;
+    color:#727272;
+    position: relative;
+    top:5%;
+}
+._Edit{
+    /* border:1px solid green; */
+    cursor:pointer;
+}
+._shortlist{
+    /* border:1px solid brown; */
+    position:relative;
+    top:4%;
+    height:95%;
+    margin-right:20%;
+    cursor:pointer;
+}
+._quickfilters{
+    /* border:1px solid blue; */
+    height:100%;
+    width:17%;
+    color:#54637C;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+}
+.quickspan{
+position:absolute;
+top:36%;
+right:22%;
+}
+.filters{
+    /* border:1px solid brown; */
+    height:100%;
+    width:60%;
+    display: flex;
+    gap:2%;
+    justify-content: center;
+}
+._cover{
+    border:1px solid #b3bac5;
+    height:32px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top:2%;
+    padding-top:9px;
+    cursor: pointer;
+    font-size: 14px;
+    color:#253858
+}
+.id1{
+    width:12%;
+}
+.id2{
+    width:20%;
+}
+.id3{
+    width:14%;
+}
+.Allfilters{
+    /* border:1px green solid; */
+    height:100%;
+    width:22.5%;
+}
+._allfilters{
+    border:1px solid #b3bac5;
+    height:31px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top:5.5%;
+    padding-top:9px;
+    cursor: pointer;
+    width:45%;
+    font-size: 14px;
+    margin-left: 19%;
+    color:#253858
+}
+.productdiv{
+    display: flex;
+    /* border:1px solid darkcyan; */
+    border-radius: 15px;
+    width:57%;
+    margin-left:8%;
+    margin-top:1%;
+    height: 120px;
+    background-color: white;
+}
+._plandiv{
+    border:0.25px solid white;
+    height:auto;
+    width:99.88%;
+    background-color: #F4F5F7;
+}
+._innerdiv{
+    width:20%;
+    /* border :1px solid green; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+._innerdiv1{
+    width:100%;
+    /* border:1px solid red; */
+    position: relative;
+    left:-5px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 16%);
+    border-radius: 10px;
+}
+._plan{
+    width: 100px;
+    height: 48px;
+    background: #fff;
+    /* border:1px solid black; */
+}
+._plan1{
+    margin-top:6%;  
+}
+._imgcompany{
+width:100%;
+height:100%;
+cursor: pointer;
+}
+._plandetails{
+    width:98%;
+    height:60%;
+    /* border:1px solid tomato; */
+    margin-left:1%;
+    display: flex;
+}
+._planhr{
+    width:96%;
+    position: relative;
+}
+._planname{
+    position: relative;
+    /* border:1px solid green; */
+    width:30%;
+    height:100%; 
+}
+._plancover{
+    /* border:1px solid green; */
+    width:40%;
+    height:100%; 
+    display: flex;
+}
+._planbutton{
+    position: relative;
+    /* border:1px solid green; */
+    width:25%;
+    height:100%; 
+}
+._planshortlist{
+    /* border:1px solid blue; */
+    width:5%;
+    height:100%; 
+}
+._spanplan{
+    font-size: 14px;
+    color: #253858;
+    font-weight: 500;
+    position: absolute;
+    top:30%;
+    cursor: pointer;
+    left: 2%;
+}
+._plancover1{
+    /* border:1px solid pink; */
+    height: 100%;
+    width:50%;
+}
+._plancover2{
+    /* border:1px solid yellow; */
+    width:100%;
+}
+._cash{
+font-size:12px;
+color:#253858;
+}
+._covertxt{
+    color:#253858;
+    font-size:12px;
+}
+._paybutton{
+    border:1px solid #FE5630;
+    width:85%;
+    height:40%;
+    border-radius: 10px;
+    background-color: #FE5630;
+    color:white;
+    padding-top: 4%;
+    font-weight: 500;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 3%;
+    cursor: pointer;
+}
+._payannually{
+color:#727272;
+font-size: 12px;
+}
+._pic{
+    margin-top: 15%;
+    cursor:pointer;
+}
+._moreplan{
+    color:#36B393;
+    font-size:12px;
+    font-weight: 500;
+    position: relative;
+    top:15%;
+    cursor: pointer;
+}
+._compare{
+    /* border:1px solid blueviolet; */
+    width:50%;
+    text-align: left;
+    font-size: 12px;
+    color:#253858;
+    font-weight: 500;
+    position: absolute;
+    bottom:0%
+}
+._compareinput{
+    cursor: pointer; 
+    border-radius: 10px;
+    height:25px;
+}
+._spancompare{
+position: absolute;
+top: 25%;
+/* background-color: yellowgreen; */
+}
+.idi2{
+    border: 1px solid white;
+    width:100%;
+    /* height:100%; */
+    border-radius: 20px;
+    color:#253858;
+    cursor: pointer;
+}

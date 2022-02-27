@@ -1,0 +1,194 @@
+.App{
+    font-family: Poppins,sans-serif;
+    background-color: #f4f5f7;
+  }
+  .sortingButtonDiv{
+    margin-left: 80px;
+    width:59.5%;
+    border:#f4f5f7;
+    background-color: #637588;
+    height: 45px;
+    border-radius: 5%;
+  }
+  .sortingButton{
+    border:0.5px solid #f4f5f7;
+    width:20%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #637588;
+  height: 100%;
+  }
+  
+  .container{
+    display: flex;
+  
+  }
+  
+  
+  .policyDiv{
+    border:1px solid #f1f1f1;
+    width:90%;
+    margin-left: 5%;
+    height:80px;
+    border-radius: 2%;
+    margin-left: 80px;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 120px;
+    border-right: 1px solid #f1f1f1;
+    
+   
+    vertical-align: middle;
+    text-align: center;
+    
+  }
+  .policyDivInside{
+    width:20%;
+    height: 100%;
+    border:1px solid #f1f1f1;
+    background-color: white;
+  }
+  .brandLogo{
+    width:50%;
+    height: 20%;
+    margin-top: 40px;
+     margin-left: 0px;
+  }
+  .brandName{
+    color: #757575;
+      font-size: 10px;
+      display: block;
+      font-weight: 400;
+      margin-left:10px;
+  }
+  .hrLogo{
+    cursor: pointer;
+      
+      margin-left: 5px;
+      width: 100%;
+      font-size: 10px;
+  }
+  .cr{
+    margin:auto;
+    margin-top: 40px;
+    font-size: 16px;
+      font-weight: 600;
+      line-height: 1.5;
+      color: #76787b;
+  }
+  .saving{
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  .montlyPrice{
+    font-size: 16px;
+    background: #f35023;
+    line-height: 36px;
+    color: #fff;
+    border: 0;
+    font-weight: 600;
+    border-radius: 3px;
+    min-width: 140px;
+    cursor: pointer;
+    height: 36px;
+    text-align: center;
+    padding: 0 18px 0 5px;
+    transition-property: all;
+    transition-duration: .6s;
+    transition-timing-function: ease;
+    
+  }
+  
+  .policyAds{
+    width:90%;
+    height:520px;
+    border-radius: 5%;
+    background-color: white;
+   
+    margin-left: 20px;
+   
+  }
+  .policyHiddenDiv{
+    border:1px solid black;
+    margin-bottom: 20px;
+  }
+  .policyads-1{
+    height:140px;
+    
+    margin-bottom: 100px;
+  }
+  
+  .policyAdsImg{
+    width: 147px;
+      height: 157px;
+      position: absolute;
+      right: 60px;
+  
+      top: 120px;
+  
+      
+  }
+  .policyAdsMiddle{
+    height:40px;
+    background-color:#f4f5f7 ;
+  }
+  .policyBox{
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  
+  .policyAdsImg2{
+    width: 147px;
+      height: 200px;
+      position: absolute;
+      right: 40px;
+  
+      top: 400px;
+  
+      
+  }
+  .policyAdshead{
+    font-size: 16px;
+      font-weight: 600;
+      color: #253858;
+      letter-spacing: normal;
+      background: none;
+      text-align: left;
+      padding: 15px;
+      line-height: 1.2;
+      font-family: Poppins,sans-serif;
+  }
+  
+  ul{
+    padding: 16px 0 14px;
+    list-style: none;
+    
+  }
+  li{
+    font-size: 13px;
+      color: rgba(37,56,88,.8);
+      line-height: 1.1;
+      padding-bottom: 10px;
+      font-weight: 500;
+      font-size: large;
+      font-family: Poppins,sans-serif;
+  }
+  .policyads-a{
+    background-color: #fff;
+      font-size: 13px;
+      font-weight: 400;
+      color: #017fff;
+      text-align: center;
+      cursor: pointer;
+      border: 1px solid #017fff;
+      border-radius: 4px;
+      padding: 5px 10px;
+      margin-bottom: 40px;
+    
+  
+  }
+  

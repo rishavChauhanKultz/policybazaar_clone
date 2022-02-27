@@ -1,0 +1,167 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.outer-container{ 
+    /* border:1px solid red; */
+    width: 100%; 
+    height: auto;
+    padding-bottom: 90px;
+    position: relative;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(240, 246, 255, 0.8) 100%);
+}
+.inner-box{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border:1px solid green;
+    background-color: rgb(244, 245, 245);
+    width: 70%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;;
+}
+.insur-left-div{
+    /* border:1px solid #2a2558; */
+    border-radius:  0em 8px 26em 2em ;
+   
+
+    width: 45%;
+    background: #e5f1fd;
+    /* position: absolute; */
+}
+
+.aki-img{
+    width: 100%;
+    padding: 3% 21%;
+}
+.insur-left{
+    width: 55%;
+   
+   /* background-color: #f3f5f7; */
+   margin-left: 20px;
+     /* position: absolute; */
+}
+.insur-head{
+    width: 98%;
+    padding: 0%;
+    padding-top: 8%;
+    margin-left: 35px;
+    margin-top: 0%;
+    /* font-family: Merriweather; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    color: #253858;
+    /* border: 1px solid red; */
+/* position: absolute;  */
+}
+.insur-head>span{
+    width: 28%;
+    padding: 0%;
+    padding-top: 8%;
+    margin:0%;
+    /* font-family: Merriweather; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 41px;
+    color: #141414
+}
+.input-gender{
+    padding:1% 0% 2% 0%;
+    margin:0%;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+
+    /* Primary/Black */
+
+    color: #253858;
+}
+/* .check-male{
+background-color: orange;
+width:300px;
+} */
+.insur-head-info>p{
+    display:flex;
+    gap: 20px;
+    margin-left: 80px;
+   color: rgb(22, 141, 141)
+}
+.input-gender{
+    display: flex;
+    
+    justify-content: space-around;
+    width:400px;
+    height: 40px;;
+    margin-left: 95px;
+    gap:33px;
+    border-radius: 10px;
+    /* border:1px solid red */
+   
+}
+.input-gender >input{
+width: 100%;
+
+}
+
+.input-detail{
+    /* border: 1px solid red;; */
+    width:fit-content;
+    height: 280px;;
+    margin-left: 90px;
+   
+    border-radius: 10px;
+}
+.input-detail>input{
+    width:400px;
+    height: 40px;
+}
+.input-detail>button{
+    width:410px;
+    height: 60px;
+    font-size: 24px;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+}
+.input-detail>button:hover{
+    border:1px solid black;
+    font-size: 26px;
+
+}
+.input-detail>button>a{
+    text-decoration: none;
+    color:white
+}
+.input-detail>button>span{
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.footer-desc{
+    width: 60%;
+    padding: 40px;
+    left: calc(52% - 833px/2 + 0.5px);
+    bottom: 162px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: center;
+    color: black;
+    margin: 20px auto;
+   
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: #F4F5F7;
+}

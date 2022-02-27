@@ -1,0 +1,154 @@
+body{
+    background-color: #f4f5f7;
+  }
+  .container{
+    width:100%;
+    background-color: #f4f5f7;
+  }
+  .detailsHeader{
+  color:teal;
+  }
+  .leftSide{
+  
+  background-color: white;
+  height: 440px;
+  width:70%;
+  display: flex;
+  padding: 30px 30px 30px 30px;
+  }
+  .leftSideLeft{
+    width:30%;
+    height:100%;
+    
+    background-color: #253858;
+  }
+  .paymentOptions{
+    width:100%;
+    height:20%;
+    
+    
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .icon{
+    width:40px;
+    height: 40px;
+  }
+  .cardNameAndImgDiv{
+    display: flex;
+    margin-top: 20px;
+    
+  }
+  .insideCardNameAndImgDiv{
+    display:inline;
+    
+  }
+  .paymentImg{
+    width:90px;
+    height:40px;
+  margin-left: 150px;
+  margin-top: 10px;
+  
+  }
+  .optionValue{
+    width:60px;
+    height: 30px;
+  }
+  .cvvDiv{
+    margin-left: 50px;
+  }
+  .cvv{
+    width:60px;
+    height:30px;
+    top:1;
+  }
+  .leftSideRight{
+   
+    
+    height:100%;
+    width:70%;
+    margin-left: 20px;
+  }
+  .rightSide{
+    
+    height:600px;
+    width:30%;
+    display: block;
+    margin-left:0px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #172b4d;
+    }
+  
+    .rightTopDiv{
+        
+        height: 40%;
+        width:100%;
+        background-color: white;
+        margin-left: 20px;
+        padding: 20px 20px 20px;
+    }
+    .rightMiddleDiv{
+    
+        height: 10%;
+        width:100%;
+        margin-left: 20px;
+    }
+    .rightBottomDiv{
+       
+        height: 50%;
+        width:100%;
+        background-color: white;
+        margin-left: 20px;
+        padding: 20px 20px 20px;
+    }
+    
+  .line{
+    width:90%;
+    border:1px solid black;
+  
+  }
+  .policyDetails{
+    display: flex;
+  }
+  .cardDetails{
+    display: flex;
+  }
+  .brandLogoI{
+    width:30%;
+    height: 20%;
+    margin-top: 40px;
+     margin-left: 0px;
+  }
+  .policy{
+      display: flex;
+     
+  }
+  .orderNo{
+      margin-left: 120px;
+  }
+  .policyName{
+    margin-left: 10px;
+    margin-top:40px
+  }
+  .paymentButton{
+   margin-left: 200px;
+   margin-top: 80px;
+   width:300px;
+   height:60px;
+   border-radius: 4px;
+    background: #0065ff;
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 600;
+    
+  }
+  
+  .certifiedLogo{
+   width:200px;
+   height: 80px; 
+   margin-left: 450px;
+   margin-top: -200px;
+  }
+  
