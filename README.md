@@ -25,8 +25,9 @@ Rishav Chauhan- Worked on payment and build a product page (Term Insurance page)
 
 Installation and Setup Instructions:
 
-Installation: npm install
-1) In the project directory, you can run: npm start
-2) Runs the app in the development mode.
+Installation: 
+1)  npm install
+2) In the project directory, you can run: npm start
+3) Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
 
